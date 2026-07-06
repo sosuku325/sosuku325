@@ -21,6 +21,14 @@ I enjoy building small tools, desktop applications, and experimental projects.
 * Building practical tools
 * Exploring software internals
 
+## WebService
+
+- [Homepage](https://sosuku.jp/)
+- [Domain list](https://sosuku.link/)
+- [sosuproxy](https://sosuproxy.sosuku.site/)
+- [sosutube](https://sosutube.sosuku.site/)
+- [questionnaire](https://qr.sosuku.site/)
+- [Tashiro](https://tashiro.sosuku.site/)
 ## GitHub Stats
 
 ![Stars](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/sosuku325/sosuku325/main/badges/stars.json)
