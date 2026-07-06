@@ -4,31 +4,30 @@ Japanese developer.
 
 I enjoy building small tools, desktop applications, and experimental projects.
 
-## Interests
+**Languages**
 
-* C#
-* Python
-* Go
-* Ruby
-* Rust
-* .NET
-* Reverse Engineering
-* Systems Programming
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white)
 
-## Current Focus
+**Interests**
 
-* Learning low-level programming
-* Building practical tools
-* Exploring software internals
+- Systems Programming
+- Reverse Engineering
+- Low-level internals
+- Desktop & Web tooling
 
-## WebService
+## Web Services
 
 - [HomePage](https://sosuku.jp/)
 - [DomainList](https://sosuku.link/)
 - [SOSUProxy](https://sosuproxy.sosuku.site/)
 - [SOSUTUBE](https://sosutube.sosuku.site/)
-- [questionnaire](https://qr.sosuku.site/)
+- [Survey](https://qr.sosuku.site/)
 - [TASHIRO HOUGEKI](https://tashiro.sosuku.site/)
+
 ## GitHub Stats
 
 ![Stars](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/sosuku325/sosuku325/main/badges/stars.json)
