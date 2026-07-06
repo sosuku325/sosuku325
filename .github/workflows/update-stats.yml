@@ -1,0 +1,26 @@
+name: Update Stats Badges
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate badge JSON
+        run: |
+          REPOS=$(curl -s "https://api.github.com/users/sosuku325/repos?per_page=100&type=owner")
+          STARS=$(echo $REPOS | python3 -c "import sys,json; print(sum(r['stargazers_count'] for r in json.load(sys.stdin)))")
+          FORKS=$(echo $REPOS | python3 -c "import sys,json; print(sum(r['forks_count'] for r in json.load(sys.stdin)))")
+          mkdir -p badges
+          echo '{"schemaVersion":1,"label":"Stars","message":"'"$STARS"'","color":"yellow","logo":"github"}' > badges/stars.json
+          echo '{"schemaVersion":1,"label":"Forks","message":"'"$FORKS"'","color":"blue","logo":"github"}' > badges/forks.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add badges/
+          git diff --staged --quiet || git commit -m "Update stats badges"
+          git push
