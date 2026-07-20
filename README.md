@@ -21,7 +21,8 @@ I enjoy building small tools, desktop applications, and experimental projects.
 
 ## Web Services
 
-- [HomePage](https://sosuku.jp/)
+- [HomePage](https://sosuku.com/)
+- [personal](https://sosuku.jp/)
 - [DomainList](https://sosuku.link/)
 - [SOSUProxy](https://sosuproxy.sosuku.site/)
 - [SOSUTUBE](https://sosutube.sosuku.site/)
